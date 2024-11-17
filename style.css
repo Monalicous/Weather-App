@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Varela+Round&display=swap');
+
+
+body{
+    background:lightskyblue;
+    font-family: "Varela Round", sans-serif;
+}
+
+.app{
+    background:white;
+    width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+    border-radius: 16px;
+    padding: 30px;
+}
