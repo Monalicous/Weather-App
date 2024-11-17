@@ -11,30 +11,34 @@
 <body>
     <div class="app">
         <header>
-            <form>
-                <input type="search" placeholder="Enter a city..." required>
-                <input type="submit" value="Search">
+            <form class="search-form">
+                <input type="search" placeholder="Enter a city..." class="search-input" required>
+                <input type="submit" value="Search" class="search-button">
             </form>
         </header>
         <main>
-            <div>
-                <h1>Johannesburg</h1>
-                <p>Saturday 20:21, Cloudy
+            <div class="data">
+                <h1 class="city">Johannesburg</h1>
+                <p class="details">Saturday 20:21, Cloudy
                     <br>
-                    Humidity:25%, Wind: 2,13km/h
+                    Humidity: <strong>25%</strong>, Wind: <strong>2,13km/h</strong>
                 </p>
             </div>
             <!--Current Weather-->
-            <div>☁️ 25℃</div>
-
-        </main>
-        <footer>Coded by
-            <a href="https://github.com/Monalicous" target="_blank">Samukelisiwe Monalisa Ntusi</a>,
-            on
-            <a href="https://github.com/Monalicous/Weather-App.git" target="_blank">GitHub</a>
-            and hosted on
-            <a href="https://monaweatherapp.netlify.app/" target="_blank">Netlify</a>
-        </footer>
+            <div class="temperature">
+                <div class="icon">☁️</div>
+                <div class="current-temp">25</div>
+                <div class="cel">℃</div>
+            </div>
+    </div>
+    </main>
+    <footer>Coded by
+        <a href="https://github.com/Monalicous" target="_blank">Samukelisiwe Monalisa Ntusi</a>,
+        on
+        <a href="https://github.com/Monalicous/Weather-App.git" target="_blank">GitHub</a>
+        and hosted on
+        <a href="https://monaweatherapp.netlify.app/" target="_blank">Netlify</a>
+    </footer>
     </div>
 </body>
 
