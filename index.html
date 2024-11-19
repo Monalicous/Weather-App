@@ -20,15 +20,16 @@
         <main>
             <div class="data">
                 <h1 class="citi" id="thecity"></h1>
-                <p class="details">Saturday 20:21, Cloudy
+                <p class="details"><span id="time"></span>,
+                    <span id="condition">Cloudy</span>
                     <br>
-                    Humidity: <strong>25%</strong>, Wind: <strong>2,13km/h</strong>
+                    Humidity: <strong id="humidity"></strong>, Wind: <strong id="speed"></strong>
                 </p>
             </div>
 
             <!--Current Weather-->
             <div class="temperature">
-                <div class="icon">☁️</div>
+                <div class="icon" id="emoji">☁️</div>
                 <div class="current-temp" id="weather-temp">25</div>
                 <div class="cel">℃</div>
             </div>
